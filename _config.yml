@@ -1,0 +1,30 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: El Azar los cría y el Orden los amontona
+lang: es-ar
+author: MFF
+copyright: "CC-BY 4.0"
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://azaryorden.github.io" # the base hostname & protocol for your site
+
+permalink: /:year/:title.html
+
+#Timezone
+timezone: Argentina/Buenos Aires
+
+#Setup for Pages
+include: ['_pages']
+
+# Build settings
+markdown: kramdown
+
+#Exclude local build settings
+exclude: ['readme.md', 'Gemfile.lock', 'Gemfile']
+
+theme: jekyll-theme-minimal
